@@ -5,7 +5,7 @@ import { useHeartbeatStore } from "@/app/lib/store";
 import { HeadAlert } from "@/app/ui/common/alert";
 import { PROJ_NAME, HEART_BEAT_ALERT, HEART_BEAT_CHECK_1S } from "@/app/lib/constants";
 import { WindowMenu, PhoneMenu } from "./menu";
-import Github from "./github";
+// import Github from "./github";
 import Link from "next/link";
 import useWebSocket, { ReadyState } from 'react-use-websocket';
 import { get_heatbeat_wss } from '@/app/lib/api';
@@ -51,9 +51,9 @@ export default function Header() {
                 <div className="md:hidden ml-auto">
                     <PhoneMenu />
                 </div>
-                <div className="hidden md:block">
+                {/* <div className="hidden md:block">
                     <Github />
-                </div>
+                </div> */}
             </div>
         </header>
     );
