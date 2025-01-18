@@ -17,4 +17,4 @@ SERVER:
       DEFAULT: "edgeAPI.yaml"
   AGENTS: 
     SUPPORT_LIST: [ "repeaterAgent.yaml", "difyAgent.yaml", "fastgptAgent.yaml", "openaiAgent.yaml" ]
-    DEFAULT: "repeaterAgent.yaml"
+    DEFAULT: "difyAgent.yaml"
