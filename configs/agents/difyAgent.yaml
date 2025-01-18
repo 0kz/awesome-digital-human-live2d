@@ -4,11 +4,11 @@ VERSION: "v0.0.1"
 PARAMETERS: [
   {
     NAME: "DIFY_API_URL",
-    DEFAULT: ""
+    DEFAULT: "https://api.dify.ai/v1"
   },
   {
     NAME: "DIFY_API_KEY",
-    DEFAULT: ""
+    DEFAULT: "app-c0ItheU5EcOWdV4lpQNfaI3M"
   },
   {
     NAME: "DIFY_API_USER",

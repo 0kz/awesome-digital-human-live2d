@@ -15,8 +15,8 @@ from fastapi.middleware.cors import CORSMiddleware
 __all__ = ["app"]
 
 app = FastAPI(
-    title="Awesome Digital Human", 
-    description="This is a cool set of apis for Awesome Digital Human",
+    title="RMJK Digital Human", 
+    description="This is a cool set of apis for RMJK Digital Human",
     version="0.0.1"
 )
 
