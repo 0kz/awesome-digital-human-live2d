@@ -152,7 +152,7 @@ export default function Gallery({isOpen: open, trigger, onClose}: {isOpen?: bool
                 <ModalContent>
                     {(onClose) => (
                         <>
-                            <ModalHeader className="flex flex-col gap-1">Gallery</ModalHeader>
+                            <ModalHeader className="flex flex-col gap-1">换肤</ModalHeader>
                             <ModalBody>
                                 <div className="flex w-full flex-col">
                                     <GalleryTabs />
@@ -160,7 +160,7 @@ export default function Gallery({isOpen: open, trigger, onClose}: {isOpen?: bool
                             </ModalBody>
                             <ModalFooter>
                                 <Button color="danger" variant="light" onPress={onClose}>
-                                    Close
+                                    关闭
                                 </Button>
                             </ModalFooter>
                         </>

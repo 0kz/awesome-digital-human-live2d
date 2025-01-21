@@ -25,14 +25,14 @@ export function PhoneMenu() {
         }
       }}>
         <DropdownItem key="gallery" textValue="gallery">
-          Gallery
+          换肤
         </DropdownItem>
         <DropdownItem key="settings" textValue="settings">
-          Settings
+          设置
         </DropdownItem>
-        <DropdownItem textValue="github">
+        {/* <DropdownItem textValue="github">
           <Github/>
-        </DropdownItem>
+        </DropdownItem> */}
       </DropdownMenu>
     </Dropdown>
     <Gallery isOpen={galleryOpen} onClose={() => setGalleryOpen(false)} />
@@ -45,10 +45,10 @@ export function WindowMenu() {
   return (
     <div className="flex flex-no-wrap items-center justify-center text-xs md:text-base">
       <div className="mr-5 hover:text-gray-900 cursor-pointer">
-        <Gallery trigger={'Gallery'}/>
+        <Gallery trigger={'换肤'}/>
       </div>
       <div className="mr-5 hover:text-gray-900 cursor-pointer">
-        <Settings trigger={'Settings'}/>
+        <Settings trigger={'设置'}/>
       </div>
     </div>
   );
