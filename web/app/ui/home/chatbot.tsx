@@ -231,7 +231,9 @@ export default function Chatbot(props: { showChatHistory: boolean }) {
                                         "flex flex-col space-y-2 text-xs max-w-xs mx-2",
                                         chat.role == ChatRole.AI ? "order-2 items-start" : "order-1 items-end"
                                     )}>
-                                        <div><Markdown className="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">{chat.content}</Markdown></div>
+                                        <div 
+                                            style={{fontSize:'.8rem',lineHeight:'1.4rem'}}
+                                        ><Markdown className="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">{chat.content}</Markdown></div>
                                     </div>
                                     <img src={chat.role == ChatRole.HUMAN ? "/icons/human_icon.svg" : "/icons/ai_icon.svg"} className="w-6 h-6 rounded-full order-1 self-start" />
                                 </div>

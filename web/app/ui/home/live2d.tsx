@@ -16,7 +16,7 @@ export default function Live2d() {
             canvasRef.current.style.backgroundImage = `url('/backgrounds/${background}.jpg')`;
         } else {
             // 去掉背景图
-            canvasRef.current.style.backgroundImage = 'none';
+            canvasRef.current.style.backgroundImage = 'https://image.peoplehealthdata.com/workbench-service/248ed51548be47049d5d5f154558316d.jpg';
         }
     }
     

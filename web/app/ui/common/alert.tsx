@@ -32,6 +32,7 @@ export function ConfirmAlert(props: { message: string }) {
                             </div>
                             <div className="ml-4 flex flex-shrink-0">
                                 <button
+                                    style={{ borderRadius: '2rem' }}
                                     type="button"
                                     className="inline-flex rounded-md bg-red-500 text-gray-400 hover:text-gray-500"
                                     onClick={() => setIsOpen(false)}
